@@ -8,7 +8,7 @@ import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 
 # Load data
-data_path = r'C:\Users\mhabchi\Desktop\Summary DASHBOARD\EST II\Overall_Averages.xlsx'
+data_path = r'Overall_Averages.xlsx'
 df = pd.read_excel(data_path)
 
 # Define maximum scores for the columns (assuming similar columns to CODE 1)
